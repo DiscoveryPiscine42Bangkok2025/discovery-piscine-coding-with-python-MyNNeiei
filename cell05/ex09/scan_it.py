@@ -8,3 +8,4 @@ def main():
             if args[i].islower():
                 args[i] = args[i].upper()
 main()
+
