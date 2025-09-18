@@ -34,7 +34,7 @@ def checkmate(board):
     king_pos = None
     king_count = 0
 
-
+    # หา K
     for r in range(n_rows):
         for c in range(n_cols):
             # ตัวแปรเก็บค่าในช่อง
