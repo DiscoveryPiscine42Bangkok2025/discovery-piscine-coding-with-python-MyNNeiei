@@ -1,11 +1,10 @@
 import sys
 def main():
     args = sys.argv[1:]
-    if len(args) == 0:
-        print("none")
+    if len(args) == 3:
+        print(sys.argv[2].count(sys.argv[1]))
     else:
-        for i in range(len(args)-1, -1, -1):
-            if args[i].islower():
-                args[i] = args[i].upper()
+        print("none")
+
 main()
 
